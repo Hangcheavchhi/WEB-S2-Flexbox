@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+        padding-left: 10em;
+        padding-right: 10em;
+        background: white;
+        font-size: large;
+      }
+  
+      .container {
+        height: 100vh;
+        background: white;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 1em;
+        color: white;
+      }
+      
+      header{
+        background: #1e90ff;
+        box-shadow: #0077ea;
+        height: 100px;
+        border-radius: 10px;
+        padding : 3em;
+        margin-top: 100px;
+      }
+      footer{
+        background: #1e90ff;
+        height: 100px;
+      }
+
+
+      main {
+        background: #3cb371;
+        box-shadow:#2f8d59 ;
+        width: 650px;
+        flex-grow: 1;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: center; 
+
+      } 
+      .Item{
+      background-color: #3cb371;
+      box-sizing: #226741;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 1rem;
+      gap: 1rem;
+      border-radius: 0.5rem;
+      }
+      .item{
+        background-color: #2f8d59;
+        border-radius: 5px;
+        height: 100px;
+        width: 100px;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        flex: wrap;
+
+      }
+      .side{
+        display: flex;
+        gap: 10px;
+        box-shadow: #e02200;
+        
+      }
+      aside{
+        background-color: #ff6347;
+        height: 350px;
+        border-radius: 5px;
+        width: 100px;
+        padding :1em;
+      }
+      footer{
+        border-radius: 5px;
+        margin-bottom: 100px;
+        box-shadow: #1d44b8;
+        height: 100px;
+        padding: 3em;
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header><b>Header</b></header>
+      <div class="side">
+        <main><b>Main</b>
+          <div class="Item">
+            <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          <div class="item"><b>Item</b></div>
+          </div>
+        </main>
+        <aside><b>Sidebar</b></aside>  
+      </div>
+      <footer><b>Footer</b></footer>
+      </section>
+    </div>
+  </body>
+</html>
